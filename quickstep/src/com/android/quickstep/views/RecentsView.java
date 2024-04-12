@@ -2650,10 +2650,6 @@ public abstract class RecentsView<ACTIVITY_TYPE extends StatefulActivity<STATE_T
         animateActionsViewIn();
 
         mCurrentGestureEndTarget = null;
-
-        switchToScreenshot(
-            () -> finishRecentsAnimation(true /* toRecents */, false /* shouldPip */,
-                    null));
     }
 
     /**
